@@ -3,7 +3,7 @@
 I Brief Description 
 
 In this project, we are using the existing 560 data points provided on the snapchat website to explore the relationship between and amount spent on political ads on Snapchat along with active days, and impressions that ads have received in the United States in 2020. We found a relationship between the amount spent on advertisement on Snapchat in the U.S; however, since most of the projects are still ongoing, we failed to find a relationship between impressions and active days. 
-
+![image](Picture1.png)
 
 II Outline 
 
