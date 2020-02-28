@@ -24,7 +24,7 @@ o	Download Snapchat election advertising data for year 2020
 
 2.	Sorting out irrelevant data 
 o	Delete irrelevant columns 
-o	Click “Data” and select “Filter” to delete rows that not contain the key word “United States” in the “Country Code” column in order to ensure all data are relevant
+o   Click “Data” and select “Filter” to delete rows that not contain the key word “United States” in the “Country Code” column in order to ensure all data are relevant
 o	Find start dates and end dates, and the number of the days in between
 o	Create new column named “Start”
 o	=LEFT(I2,FIND(" ",I2)-1) #remove everything (specific time, etc.) after the first space in column “StartDate” and keep the rest in “StartDate”
