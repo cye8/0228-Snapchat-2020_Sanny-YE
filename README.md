@@ -19,6 +19,7 @@ Industry Answer Findings: There is a clear connection between the amount of mone
 
 III  Step by Step Description
 
+View link below:
 https://drive.google.com/file/d/1Te5eqKiZf_Htp4UF6UOI1nqIiO8NyMZ7/view?usp=sharing
 
 
