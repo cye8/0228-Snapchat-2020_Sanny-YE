@@ -20,9 +20,11 @@ Industry Answer Findings: There is a clear connection between the amount of mone
 III  Step by Step Description
 
 1.	Extracting data from the Snapchat official website
+
 o	Download Snapchat election advertising data for year 2020
 
 2.	Sorting out irrelevant data 
+
 o	Delete irrelevant columns 
 o   Click “Data” and select “Filter” to delete rows that not contain the key word “United States” in the “Country Code” column in order to ensure all data are relevant
 o	Find start dates and end dates, and the number of the days in between
@@ -33,18 +35,21 @@ o	=LEFT(J2,FIND(" ",J2)-1) #remove everything (specific time, etc.) after the fi
 o	Show only columns with specific dates using “Filter”
 
 3.	Calculating days in between
+
 o	Create new column “Days”
 o	=M2-L2 #calculate days in between start date and end date for each transaction
 
 4.	Generating linear regression function (x = amount spent on the ads; y = number of impressions) using scatter plot and trendline
 
 5.	Running a regression analysis using Data Analysis Tool
+
 o	Filling in data to build the regression model
 o	Set Y range (dependent variable) to be “Impressions”
 o	Set X range (independent variables) to be “Spent” and “Days”
 o	Select to send the output to worksheet called “regression”
 
 6.	Analyzing data based on the linear regression function and data generated from the multi-linear regression model
+
 o	Simple linear regression- impressions associated with dollars spent on political ads (x = amount spent on the ads; y = number of impressions)
 o	y = 366.33x + 13854, with R2 = 0.61, slope = 366.33, and intercept = 13854
 o	Calculate standard error Std_error = 2315807 (counts of impressions)
@@ -56,6 +61,7 @@ o	The new analysis shows similar results as in the simple linear regression mode
 o	The significance F (how likely that coefficients are not useful in terms of predicting our dependent variable) is approximately 3.374E-116, which is very close to 0. Thus, there is approximately 0 chance that our coefficients are not helpful to predict. In other words, our coefficients are significant.
 
   7.	Generating results
+  
 o	According to the regression model, impression = 13853.55 + 366.33(spend).
 8.	Make predictions for the future 
 o	For a given amount spent on political ads on Snapchat in the U.S., we can predict the number of people who watch the ads by using the equation above
