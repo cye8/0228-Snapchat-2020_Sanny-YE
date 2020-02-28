@@ -1,11 +1,12 @@
 # 0228-Snapchat-2020_Sanny-YE
 
-I Brief Description 
+I  Brief Description 
 
 In this project, we are using the existing 560 data points provided on the snapchat website to explore the relationship between and amount spent on political ads on Snapchat along with active days, and impressions that ads have received in the United States in 2020. We found a relationship between the amount spent on advertisement on Snapchat in the U.S; however, since most of the projects are still ongoing, we failed to find a relationship between impressions and active days. 
+
 ![image](Picture1.png)
 
-II Outline 
+II  Outline 
 
 Industry Question
 Is there a trend in terms of investing in political ads on Snapchat in the United States? How many impressions should companies/organizations expect if budget and active days are known?
@@ -20,7 +21,8 @@ Industry Answer Findings
 There is a clear connection between the amount of money spent on ads on Snapchat and impressions that ads receive, so organizations can make predictions according to the regression model prior to launching the advertisement. The relationship between the number of days in which adds are active and impressions generated are still yet to be explored using data from previous years as we don’t see a significant connection between the two variables in this project.
 
 
-III Step by Step Description
+III  Step by Step Description
+
 1.	Extracting data from the Snapchat official website
 o	Download Snapchat election advertising data for year 2020
 
@@ -56,17 +58,18 @@ o	Since p-values of the active days (0.345) is more than 0.05, this variable is 
 o	The new analysis shows similar results as in the simple linear regression model
     The R2 value (~.61) is the same as described in the simple linear regression analysis, which indicates that this model describes approximately 61% of our data.
 o	The significance F (how likely that coefficients are not useful in terms of predicting our dependent variable) is approximately 3.374E-116, which is very close to 0. Thus, there is approximately 0 chance that our coefficients are not helpful to predict. In other words, our coefficients are significant.
+
   7.	Generating results
 o	According to the regression model, impression = 13853.55 + 366.33(spend).
 8.	Make predictions for the future 
 o	For a given amount spent on political ads on Snapchat in the U.S., we can predict the number of people who watch the ads by using the equation above
 
 
-IV Conclusion
+IV  Conclusion
 
 Based on the regression model, we found a relationship between the amount spent on advertisement on Snapchat in the U.S. as the number of impressions increases by ~366 for every dollar spent on the ad. This relationship holds true for over 60% the 560 data points we have generated in year 2020. This result intuitively makes sense because the more organizations spend on an ad, the broader the ad spreads and more people might watch the ad. Surprisingly, we found that number of days in which ads are active does not have a significant impact on the amount of impressions received. This might be due to the limitation of data we have (since the year 2020 has just started) or inaccurate data points.
 
 
-V Website Links to Data Sources
+V  Website Links to Data Sources
 
 1)	https://www.snap.com/en-US/political-ads/
